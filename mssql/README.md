@@ -1,0 +1,3 @@
+Before using the script in this folder, you'll need the [MSSQL JDBC driver](https://www.microsoft.com/en-us/download/details.aspx?id=54671). I'd suggest downloading it and placing it in /etc/jdbc/sqljdbc_4.2/ if you're on a Mac.
+
+Open the dbcreds_example.csv file and **save it to a location not included in version control** or make it a dot file and include that dot file in your .gitignore. You don't want to expose your credentials to the world by pushing them to Github or similar. That's why they're not hard-coded into the connect script. Once the file is safely tucked away somewhere no one else will see it, replace everywhere that says <something> with your information.

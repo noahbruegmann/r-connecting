@@ -7,8 +7,12 @@
 
 # RStudio files
 .Rproj.user/
+*.Rproj
 
-# produced vignettes
+# Produced vignettes
 vignettes/*.html
 vignettes/*.pdf
 .Rproj.user
+
+# Credentials
+.dbcreds

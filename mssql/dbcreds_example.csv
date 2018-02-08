@@ -1,0 +1,2 @@
+URL,User,Password
+jdbc:sqlserver://<server location>:<port>;Database=<your database>,<Username>,<Password>
